@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Force Python files to be detected as Python
+*.py linguist-language=Python
+
+# Force C++ files to be detected as C++
+*.cpp linguist-language=C++
+*.h linguist-language=C++
